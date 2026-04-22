@@ -24,11 +24,11 @@ AI 短视频自动生成系统（test_autoVedio）
    streamlit run App.py
 2) 直接跑命令行流水线
    python mian.py
-   三、项目用到的依赖（来自你提供的 pip list）
+   三、项目用到的依赖
 
 --------------------------------------
 
-下面这些是本项目源码中实际 import/调用到的依赖包及版本：
+下面这些是本项目源码中实际 调用到的依赖包及版本：
 
 - streamlit==1.56.0
   用途：提供可视化页面（App.py）
@@ -52,7 +52,7 @@ AI 短视频自动生成系统（test_autoVedio）
   用途：下载生成的图片等（images_agent.py / thumbnail_agent.py）
 - imageio-ffmpeg==0.6.0
   用途：提供 ffmpeg 可执行文件路径（Asr_agent.py）
-  四、运行前准备（重要）
+  四、运行前准备
 
 -------------------
 
@@ -63,6 +63,4 @@ AI 短视频自动生成系统（test_autoVedio）
 2) ffmpeg
    - 本项目在 Asr_agent.py 中使用 imageio-ffmpeg 获取 ffmpeg 路径并尝试复制 ffmpeg.exe
    - 仍建议确保本机可用 ffmpeg（避免路径/权限问题）
-3) Python 版本
-   - 建议使用和你当前环境一致的 Python 版本运行（以避免依赖兼容问题）
-     五、输出目录
+
