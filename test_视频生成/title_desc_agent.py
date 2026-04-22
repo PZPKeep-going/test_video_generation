@@ -5,7 +5,7 @@ import os
 
 llm = init_chat_model(
     model="deepseek-chat",
-    api_key="sk-d4330db14afa484798cbc3aedd8fd702",
+    api_key="sk-d4330db14afa484798cbc3aedd8fd",
     base_url="https://api.deepseek.com"
 )
 
