@@ -6,10 +6,10 @@ from langchain_core.prompts import ChatPromptTemplate
 import os
 
 tavily = TavilySearchResults(max_results=3
-                             ,tavily_api_key="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")
+                             ,tavily_api_key="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")(自己去获取)
 llm = init_chat_model(
     model="deepseek-chat",
-    api_key="sk-d4330db14afa484798cbc3aedd8fd702",
+    api_key="sk-d4330db14afa484798cbc3aedd8fd",
     base_url="https://api.deepseek.com"
 )
 
