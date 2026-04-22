@@ -6,7 +6,7 @@ from datetime import datetime
 
 def generate_avatar_video(state):
     api_key = os.getenv("SIMLI_API_KEY")
-    face_id = "ba22033f-210a-41e3-b539-c1742f6ffeab"
+    face_id = "ba22033f-210a-41e3-b539-c1742f6f"
     output_file_path = f"output/avatar_videos/avatar_video_{datetime.now().timestamp()}.mp4"
     # audio_path = f"output/audio_{datetime.now().timestamp()}.mp3"
     # Read the audio file and encode it to Base64
